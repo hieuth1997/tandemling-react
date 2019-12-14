@@ -1,0 +1,31 @@
+@import "./../../Static/scss/default.scss";
+.branding{
+    padding: 20px 0;
+    background-color: $bg-sea-blue;
+    .title{
+        color: $white-color;
+        & h2{
+            font-size: 20px;
+            min-height: 15px;
+            line-height: 20px;
+
+
+        }
+        & .custom-menu{
+            color: $white-color;
+            padding: 0px 4px 0px 22px;
+        }
+        & .sub-title{
+            padding-left: 4px;
+            
+        }
+        & .sub-2-title{
+            width: 300px;
+            display: inline-table;
+            text-align: left;
+            text-transform: uppercase;
+
+        }
+    }
+
+}

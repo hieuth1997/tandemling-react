@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+$bg-dark-blue : #022a48;
+$bg-sea-blue : #4297d8;
+$txt-dark-blue :  #022a48;
+$white-color : #ffffff;
+$gray-color : #f5f5f5;
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.color-main{
+  color: $bg-sea-blue;
+}
+.color-white{
+  color:$white-color !important;
+} 
+.color-dark{
+  color :$bg-dark-blue !important;
+}
+
+.bg-dark-blue{
+  background :$bg-dark-blue;
+  padding: 20px 40px 40px 40px;
+  height: 100%;
+
+}
+.bg-dark-none{
+  background :$bg-dark-blue !important;
+  padding: 5px 10px 5px 10px !important;
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+  font-weight: 500;
+
+
+}
+.bg-sea-none{
+  background :$bg-sea-blue !important;
+  padding: 5px 10px 5px 10px !important;
+  margin: 20px 0px !important;
+  font-size: 16px !important;
+  font-weight: 500;
+
+
+}
+.bg-white{
+  padding: 20px 40px 40px 40px;
+  height: 100%;
+}
+.bg-white-none{
+  background: #ffff;
+  padding: 5px 10px 5px 10px !important;
+  margin-bottom: 20px !important;
+  font-size: 16px !important;
+}
+.bg-sea{
+  background :$bg-sea-blue;
+  padding: 20px 40px 0 40px;
+  height: 100%;
+}
+h3{
+  margin-bottom: 30px;
+}
+
+
+@keyframes slide-down {
+    0% { opacity: 0; -moz-transform: translateY(-100%); }   
+  100% { opacity: 1; -moz-transform: translateY(0); }
+}
+$mobile-width: 480px; 
+$tablet-width: 768px; 
+$desktop-width: 1024px;  
+
+$mobile-width: 480px; 
+$tablet-width: 700px; 
+$desktop-width: 1024px;  
+
+@mixin mobile { @media (max-width: #{$mobile-width - 1px}) {     
+  @content;   
+ } 
+}  
+
+@mixin tablet { @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {       
+   @content;   
+ } 
+}  
+
+@mixin desktop {   @media (min-width: #{$desktop-width}) {     
+  @content;  
+ } 
+}
