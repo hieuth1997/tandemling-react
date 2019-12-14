@@ -38,7 +38,7 @@ class Success extends Component {
                 <Col xs={24} md={12} xl={12}>
                   <div className="card-story">
                     <img className="d-block" src={book} alt="img"></img>
-                    <span class="bg-sea-none color-white d-inline-block">
+                    <span className="bg-sea-none color-white d-inline-block">
                       SUCCESS STORY 01
                     </span>
                     <h3>SMSF SUCCESS STORY</h3>
@@ -223,7 +223,7 @@ class Success extends Component {
                 <Col xs={24} md={12} xl={12}>
                   <div className="card-story">
                     <img className="d-block" src={book} alt="img"></img>
-                    <span class="bg-sea-none color-white d-inline-block">
+                    <span className="bg-sea-none color-white d-inline-block">
                       SUCCESS STORY 02
                     </span>
                     <h3>SMSF SUCCESS STORY</h3>
@@ -579,7 +579,7 @@ class Success extends Component {
           </div>
         </div>
         <div className="color-dark advertise ">
-          <div class="container text-center">
+          <div className="container text-center">
             <h2 className="color-dark">Join Tandem Uehling PropertyUSA</h2>
             <p className="text-center  color-white">
               At Tandem Uehling PropertyUSA, we strive to give each Australian

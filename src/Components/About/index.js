@@ -4,10 +4,9 @@ import "./style.scss";
 import { Row, Col } from "antd";
 import imgBook from "./../../Static/Img/inverter/book.png";
 import "react-circular-progressbar/dist/styles.css";
+import replaceImg from "./../../Static/Img/replace.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
- 
-
   faAnchor,
   faPencilAlt,
   faDownload,
@@ -20,8 +19,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export class About extends Component {
-  componentDidMount()
-  {
+  componentDidMount() {
     window.scrollTo(0, 0);
   }
   render() {
@@ -245,7 +243,15 @@ export class About extends Component {
             </div>
           </Col>
           <Col md={12}>
-            <div className="download">
+            <div
+              style={{
+                backgroundImage: "url(" + replaceImg + ")",
+                backgroundSize: "cover",
+                width: "100%",
+                height: "100%"
+              }}
+            ></div>
+            {/* <div className="download">
               <article>
                 <Row>
                   <Col md={18} lg={18}>
@@ -281,7 +287,7 @@ export class About extends Component {
                   </Col>
                 </Row>
               </article>
-            </div>
+            </div> */}
           </Col>
         </Row>
         <div className="panel-aus">

@@ -11,6 +11,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import VisibilitySensor from "react-visibility-sensor";
+import replaceImg from "./../../Static/Img/replace.png";
 import {
   faBriefcase,
   faCog,
@@ -493,7 +494,15 @@ export class Workpage extends Component {
             </div>
           </Col>
           <Col md={12}>
-            <div className="download">
+          <div
+                style={{
+                  backgroundImage: "url(" + replaceImg + ")",
+                  backgroundSize: "cover",
+                  width: "100%",
+                  height: "100%"
+                }}
+              ></div>
+            {/* <div className="download">
               <article>
                 <Row>
                   <Col md={18} lg={18}>
@@ -529,7 +538,7 @@ export class Workpage extends Component {
                   </Col>
                 </Row>
               </article>
-            </div>
+            </div> */}
           </Col>
         </Row>
         <div className="panel-aus">

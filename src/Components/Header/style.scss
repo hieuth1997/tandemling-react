@@ -158,6 +158,10 @@ h2 {
             color: $white-color;
             text-transform: uppercase;
             font-size: 13px;
+            & .active{
+              background-color: $bg-sea-blue;
+              color: $txt-dark-blue;
+            }
             &:hover {
               & .news-menu {
                 display: inline-block;

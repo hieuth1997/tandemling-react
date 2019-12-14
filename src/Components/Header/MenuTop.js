@@ -3,11 +3,12 @@ import Container from "react-bootstrap/Container";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import { Icon } from "antd";
-import { Link } from "react-router-dom";
-import NewsMenu from './NewsMenu'
+import { Link , } from "react-router-dom";
+import NewsMenu from './NewsMenu';
+import { withRouter } from "react-router";
+import classNames from 'classnames/bind';
 
 import logo from "./../../Static/Img/logo.png";
-import NavLink from "react-bootstrap/NavLink";
 import "antd/dist/antd.css";
 
 class MenuTop extends Component {
@@ -15,33 +16,36 @@ class MenuTop extends Component {
     this.props.handleOpenSearch();
   };
   render() {
+    const match = this.props.location.pathname ;
+    console.log(match)
+
     return (
       <div className="menu">
         <Container>
           <Navbar collapseOnSelect expand="lg">
-            <Navbar.Brand href="#home">
+            <Navbar.Brand href="/">
               <img className="logo img-fluid" alt="img" src={logo}/>
             </Navbar.Brand>
 
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link>
+                <Nav.Link href="/">
                   <Link to="/">
-                    <div className="custom-link">Home</div>
+                    <div className={classNames('custom-link',{"active":match==="/"})}>Home</div>
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
                   <Link to="/about">
-                    <div className="custom-link">About Us</div>
+                    <div className={classNames('custom-link',{"active":match==="/about"})}>About Us</div>
                   </Link>
                 </Nav.Link>
                 {/* <NavDropdown as="#" title="how it work" className="nav-link" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#">Information Package <br/>Investors</NavDropdown.Item>
                             </NavDropdown> */}
-                <Nav.Link className="news-link">
+                <Nav.Link className="news-link" href="/work">
                   <Link to="/work">
-                    <div className="custom-link">
+                    <div className={classNames('custom-link',{"active":match==="/work"||match==="/invert"})}>
                       How it Work <Icon type="down" className="icon" />
                     </div>
                   </Link>
@@ -53,11 +57,11 @@ class MenuTop extends Component {
                       </div>
                     </Link>
                   </div>
-                </Nav.Link>
-                <Nav.Link>
+                </Nav.Link >
+                <Nav.Link href="/sucess">
                   {" "}
-                  <Link to="success">
-                    <div className="custom-link">Successes</div>
+                  <Link to="/success">
+                    <div className={classNames('custom-link',{"active":match==="/success"})}>Successes</div>
                   </Link>
                 </Nav.Link>
                 <Nav.Link>
@@ -123,10 +127,10 @@ class MenuTop extends Component {
                 <Nav.Link>
                   <div className="custom-link">Contact Us</div>
                 </Nav.Link>
-                <NavLink>
+                <Nav.Link>
                   {" "}
                   <div className="custom-link">Sign Up</div>
-                </NavLink>
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Navbar>
@@ -140,4 +144,4 @@ class MenuTop extends Component {
   }
 }
 
-export default MenuTop;
+export default withRouter(MenuTop);;

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Brand from "../Branding";
 import "./style.scss";
 import { Row, Col } from "antd";
+import replaceImg from './../../Static/Img/replace.png'
 
 import imgBook from "./../../Static/Img/inverter/book.png";
 import "react-circular-progressbar/dist/styles.css";
@@ -29,68 +30,6 @@ import {
     return (
       <div className="invest-page">
         <Brand title="How it Work" subTitle="INFORMATION PACKAGE FOR INVESTORS IN TANDEM PROPERTYUSA FUND"></Brand>
-        <Row type="flex">
-          <Col xs={24} md={12} xl={12}>
-            <div
-              className="so-panel widget widget_vr_picture aio-widget-text panel-first-child panel-last-child"
-              id="panel-7584-1-0-0"
-              data-index={2}
-              style={{ height: "100%" }}
-            >
-              <div
-                style={{
-                  backgroundImage:
-                    "url(https://tandemuehling.com.au/wp-content/uploads/2016/09/upper.jpg)",
-                  backgroundRepeat: "repeat",
-                  backgroundSize: "cover",
-                  width: "100%",
-                  height: "100%"
-                }}
-                className="panel-widget-style"
-              >
-                {" "}
-              </div>
-            </div>
-          </Col>
-          <Col xs={24} md={12} xl={12}>
-            <div
-              className="bg-dark-blue text-light panel-widget-style"
-              style={{ minHeight: "540px" }}
-            >
-              <article className="text holder clearfix ">
-                <article className="text text clearfix  clearfix ">
-                  <article className="text text article-simple clearfix  clearfix " />
-                  <h3 className="d-inline-block bg-white-none color-dark">
-                    About us
-                  </h3>
-                  <h3>Tandem Uehling PropertyUSA</h3>
-                  <p>
-                    <strong>
-                      Tandem Uehling PropertyUSA was founded in 2009 as an
-                      additional service offering to Tandem Uehling’s Financing
-                      business, started in 2004.
-                    </strong>
-                  </p>
-                  <p>
-                    It is a finely tuned investment vehicle that uses the
-                    property investment capital of average Australia investors
-                    and allows them to gain access to property investments
-                    normally only available to the very wealthy.
-                  </p>
-                  <p>
-                    At Tandem Uehling PropertyUSA, we take positions in free
-                    standing residential properties through to equity or
-                    mezzanine financing positions in major commercial
-                    developments. Each opportunity would normally be difficult
-                    for the average investor because of the time, effort and
-                    capital requirements along with the years of due diligence
-                    needed.
-                  </p>
-                </article>{" "}
-              </article>
-            </div>
-          </Col>
-        </Row>
         <div className="container" style={{ paddingTop: "60px" }}>
           <Row>
             <Col xs={24} md={12} xl={12}>
@@ -246,7 +185,16 @@ import {
             </div>
           </Col>
           <Col md={12}>
-            <div className="download">
+          <div style={{
+                backgroundImage:"url("+replaceImg+")",
+                backgroundSize : 'cover',
+                width : "100%",
+                height : "100%",
+
+              
+            }}>
+              </div>
+            {/* <div className="download">
               <article>
                 <Row>
                   <Col md={18} lg={18}>
@@ -282,7 +230,7 @@ import {
                   </Col>
                 </Row>
               </article>
-            </div>
+            </div> */}
           </Col>
         </Row>
         <div className="panel-aus">

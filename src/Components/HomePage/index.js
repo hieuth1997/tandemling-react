@@ -29,7 +29,7 @@ import logo3 from "./../../Static/Img/icon-3-work.png";
 import female from "./../../Static/Img/female-profile.jpg";
 import male from "./../../Static/Img/male-profile.jpg";
 import NewsCard from "./NewsCard";
-import replaceImg from './../../Static/Img/replace.png'
+import replaceImg from "./../../Static/Img/replace.png";
 import "./style.scss";
 import "antd/dist/antd.css";
 class Homepage extends Component {
@@ -40,7 +40,7 @@ class Homepage extends Component {
         title: "YEAR",
         dataIndex: "year",
         key: "name",
-        className: "col-year",
+        className: "col-year"
       },
       {
         title: "TANDEM UEHLING",
@@ -136,15 +136,14 @@ class Homepage extends Component {
       console.log(item.money);
       return item;
     });
-    
+
     console.log(editMoney);
     this.setState({
       moneys: editMoney
     });
   };
-  componentWillMount()
-  {
-    console.log("will-mount-homepage")
+  componentWillMount() {
+    console.log("will-mount-homepage");
   }
 
   render() {
@@ -162,8 +161,6 @@ class Homepage extends Component {
     });
     const data = this.state.moneys;
     const columns = this.columns;
-    
-    
 
     return (
       <Fragment>
@@ -205,7 +202,7 @@ class Homepage extends Component {
                 <div className="img-invester"></div>
               </div>
             </Col>
-            <Col  md={24}lg={16}>
+            <Col md={24} lg={16}>
               <Row type="flex">
                 <Col md={12}>
                   <div className="contain-invester">
@@ -288,7 +285,7 @@ class Homepage extends Component {
             </Col>
           </Row>
           <Row type="flex">
-            <Col md={12}>
+            <Col xs={24} md={12}>
               <div className="sign-up">
                 <article>
                   <div className="text-icon">
@@ -317,8 +314,16 @@ class Homepage extends Component {
                 </article>
               </div>
             </Col>
-            <Col md={12}>
-              <div className="download">
+            <Col xs={24} md={12}>
+              <div
+                style={{
+                  backgroundImage: "url(" + replaceImg + ")",
+                  backgroundSize: "cover",
+                  width: "100%",
+                  height: "100%"
+                }}
+              ></div>
+              {/* <div className="download">
                 <article>
                   <Row>
                     <Col md={18} lg={18}>
@@ -354,7 +359,7 @@ class Homepage extends Component {
                     </Col>
                   </Row>
                 </article>
-              </div>
+              </div> */}
             </Col>
           </Row>
         </div>
@@ -453,7 +458,7 @@ class Homepage extends Component {
             <div className="bg-dark-blue calculate">
               <article className="content">
                 <Icon type="calculator" className="big-icon" />
-                <h2 class="">
+                <h2 className="">
                   Calculate <br />
                   Your Investment Earnings
                 </h2>
@@ -511,10 +516,10 @@ class Homepage extends Component {
                   the right one for your circumstances? We can offer you
                   services in the fund or bespoke portfolio.{" "}
                 </p>
-                <p>
-                  <strong>For more information, call us today on:</strong>
+                <div>
+                  <strong className="color-white">For more information, call us today on:</strong>
                   <h2 className="phone-number">1300 ­854 431</h2>
-                </p>
+                </div>
               </article>
             </div>
           </Col>
@@ -654,24 +659,22 @@ class Homepage extends Component {
               investment objectives.
             </p>
             <div className="button-medium mt-text mr-md-4">
-                <FontAwesomeIcon
-                  icon={faAnchor}
-                  className="icon-edge"
-                ></FontAwesomeIcon>
-                Get Started
-              </div>
-              <div className="button-medium mt-text   ">
-                <FontAwesomeIcon
-                  icon={faChartLine}
-                  className="icon-edge"
-                ></FontAwesomeIcon>
-                Sucess Stories
-              </div>
+              <FontAwesomeIcon
+                icon={faAnchor}
+                className="icon-edge"
+              ></FontAwesomeIcon>
+              Get Started
+            </div>
+            <div className="button-medium mt-text   ">
+              <FontAwesomeIcon
+                icon={faChartLine}
+                className="icon-edge"
+              ></FontAwesomeIcon>
+              Sucess Stories
+            </div>
           </div>
           <div className="rounded-circle  icon-absolute ">
-             <FontAwesomeIcon icon={faUserPlus}>
-
-             </FontAwesomeIcon>
+            <FontAwesomeIcon icon={faUserPlus}></FontAwesomeIcon>
           </div>
         </div>
       </Fragment>
