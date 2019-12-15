@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/hieuth1997/tandemling-react/static/css/main.52970e80.chunk.css",
+    "main.js": "/hieuth1997/tandemling-react/static/js/main.e5151097.chunk.js",
+    "main.js.map": "/hieuth1997/tandemling-react/static/js/main.e5151097.chunk.js.map",
+    "runtime-main.js": "/hieuth1997/tandemling-react/static/js/runtime-main.ca7bb9cf.js",
+    "runtime-main.js.map": "/hieuth1997/tandemling-react/static/js/runtime-main.ca7bb9cf.js.map",
+    "static/css/2.519f6f6a.chunk.css": "/hieuth1997/tandemling-react/static/css/2.519f6f6a.chunk.css",
+    "static/js/2.3996f8e9.chunk.js": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js",
+    "static/js/2.3996f8e9.chunk.js.map": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js.map",
+    "index.html": "/hieuth1997/tandemling-react/index.html",
+    "precache-manifest.e5451f9a3b1e090097dcee8fa12b48f9.js": "/hieuth1997/tandemling-react/precache-manifest.e5451f9a3b1e090097dcee8fa12b48f9.js",
+    "service-worker.js": "/hieuth1997/tandemling-react/service-worker.js",
+    "static/css/2.519f6f6a.chunk.css.map": "/hieuth1997/tandemling-react/static/css/2.519f6f6a.chunk.css.map",
+    "static/css/main.52970e80.chunk.css.map": "/hieuth1997/tandemling-react/static/css/main.52970e80.chunk.css.map",
+    "static/js/2.3996f8e9.chunk.js.LICENSE": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js.LICENSE",
+    "static/media/style.scss": "/hieuth1997/tandemling-react/static/media/slider-03.55946141.jpg",
+    "static/media/book.png": "/hieuth1997/tandemling-react/static/media/book.81b0f2bc.png",
+    "static/media/external.svg": "/hieuth1997/tandemling-react/static/media/external.03979156.svg",
+    "static/media/female-profile.jpg": "/hieuth1997/tandemling-react/static/media/female-profile.4a761f4d.jpg",
+    "static/media/icon-2.png": "/hieuth1997/tandemling-react/static/media/icon-2.a3ab4347.png",
+    "static/media/male-profile.jpg": "/hieuth1997/tandemling-react/static/media/male-profile.e218bd0c.jpg",
+    "static/media/news-1.jpg": "/hieuth1997/tandemling-react/static/media/news-1.3bb8c2a2.jpg",
+    "static/media/replace.png": "/hieuth1997/tandemling-react/static/media/replace.5f1cc89d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ca7bb9cf.js",
+    "static/css/2.519f6f6a.chunk.css",
+    "static/js/2.3996f8e9.chunk.js",
+    "static/css/main.52970e80.chunk.css",
+    "static/js/main.e5151097.chunk.js"
+  ]
+}
