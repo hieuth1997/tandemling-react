@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Header from "./Components/Header";
 import Footer from "./Components/Footer";
-import { BrowserRouter, Switch, Route ,  } from "react-router-dom";
+import { HashRouter, Switch, Route ,  } from "react-router-dom";
 import Homepage from "./Components/HomePage";
 import Workpage from "./Components/WorkPage";
 import About from "./Components/About";
@@ -13,7 +13,7 @@ class App extends Component {
   }
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Switch>
           <Route path="/about" exact component={About} />
@@ -24,7 +24,7 @@ class App extends Component {
           <Route path="/" component={Homepage} />
         </Switch>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
