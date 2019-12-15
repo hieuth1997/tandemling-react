@@ -10,7 +10,6 @@ import classNames from 'classnames/bind';
 
 import logo from "./../../Static/Img/logo.png";
 import "antd/dist/antd.css";
-
 class MenuTop extends Component {
   handleOpenSearch = () => {
     this.props.handleOpenSearch();
@@ -23,14 +22,13 @@ class MenuTop extends Component {
       <div className="menu">
         <Container>
           <Navbar collapseOnSelect expand="lg">
-            <Navbar.Brand href="/">
+            <Navbar.Brand >
               <img className="logo img-fluid" alt="img" src={logo}/>
             </Navbar.Brand>
-
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav>
-                <Nav.Link href="/">
+                <Nav.Link>
                   <Link to="/">
                     <div className={classNames('custom-link',{"active":match==="/"})}>Home</div>
                   </Link>
@@ -43,7 +41,7 @@ class MenuTop extends Component {
                 {/* <NavDropdown as="#" title="how it work" className="nav-link" id="basic-nav-dropdown">
                             <NavDropdown.Item href="#">Information Package <br/>Investors</NavDropdown.Item>
                             </NavDropdown> */}
-                <Nav.Link className="news-link" href="/work">
+                <Nav.Link className="news-link" >
                   <Link to="/work">
                     <div className={classNames('custom-link',{"active":match==="/work"||match==="/invert"})}>
                       How it Work <Icon type="down" className="icon" />
