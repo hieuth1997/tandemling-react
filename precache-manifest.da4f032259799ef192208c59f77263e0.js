@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b759ae6678fd354517f92858309f1e4",
+    "revision": "7055a85e65621f8e84d8d28d26d2ffd6",
     "url": "/tandemling-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tandemling-react/static/css/2.2b947c49.chunk.css"
   },
   {
-    "revision": "a3e5a4a54a2c7defafff",
+    "revision": "e4bcf9745843a1c0272f",
     "url": "/tandemling-react/static/css/main.5bf2d788.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/tandemling-react/static/js/2.71e6b8eb.chunk.js.LICENSE"
   },
   {
-    "revision": "a3e5a4a54a2c7defafff",
-    "url": "/tandemling-react/static/js/main.c2d39ff4.chunk.js"
+    "revision": "e4bcf9745843a1c0272f",
+    "url": "/tandemling-react/static/js/main.c088e49c.chunk.js"
   },
   {
     "revision": "ebd99df079b7ac777b51",

@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/tandemling-react/static/css/main.5bf2d788.chunk.css",
-    "main.js": "/tandemling-react/static/js/main.c2d39ff4.chunk.js",
-    "main.js.map": "/tandemling-react/static/js/main.c2d39ff4.chunk.js.map",
+    "main.js": "/tandemling-react/static/js/main.c088e49c.chunk.js",
+    "main.js.map": "/tandemling-react/static/js/main.c088e49c.chunk.js.map",
     "runtime-main.js": "/tandemling-react/static/js/runtime-main.8acf1cee.js",
     "runtime-main.js.map": "/tandemling-react/static/js/runtime-main.8acf1cee.js.map",
     "static/css/2.2b947c49.chunk.css": "/tandemling-react/static/css/2.2b947c49.chunk.css",
     "static/js/2.71e6b8eb.chunk.js": "/tandemling-react/static/js/2.71e6b8eb.chunk.js",
     "static/js/2.71e6b8eb.chunk.js.map": "/tandemling-react/static/js/2.71e6b8eb.chunk.js.map",
     "index.html": "/tandemling-react/index.html",
-    "precache-manifest.13aeb4a419ead290df56a05335a6cbe7.js": "/tandemling-react/precache-manifest.13aeb4a419ead290df56a05335a6cbe7.js",
+    "precache-manifest.da4f032259799ef192208c59f77263e0.js": "/tandemling-react/precache-manifest.da4f032259799ef192208c59f77263e0.js",
     "service-worker.js": "/tandemling-react/service-worker.js",
     "static/css/2.2b947c49.chunk.css.map": "/tandemling-react/static/css/2.2b947c49.chunk.css.map",
     "static/css/main.5bf2d788.chunk.css.map": "/tandemling-react/static/css/main.5bf2d788.chunk.css.map",
@@ -28,6 +28,6 @@
     "static/css/2.2b947c49.chunk.css",
     "static/js/2.71e6b8eb.chunk.js",
     "static/css/main.5bf2d788.chunk.css",
-    "static/js/main.c2d39ff4.chunk.js"
+    "static/js/main.c088e49c.chunk.js"
   ]
 }
