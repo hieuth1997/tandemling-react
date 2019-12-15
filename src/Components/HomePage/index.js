@@ -32,6 +32,7 @@ import NewsCard from "./NewsCard";
 import replaceImg from "./../../Static/Img/replace.png";
 import "./style.scss";
 import "antd/dist/antd.css";
+import Slide from "react-reveal/Slide";
 class Homepage extends Component {
   constructor(props) {
     super(props);
@@ -128,6 +129,7 @@ class Homepage extends Component {
   componentDidMount() {
     window.scrollTo(0, 0);
   }
+
   getMoney = value => {
     let moneys = this.state.moneys;
     let editMoney = moneys.map(item => {
@@ -170,23 +172,25 @@ class Homepage extends Component {
             <Col md={24} lg={8}>
               <div className="pannel">
                 <div className="about-card">
-                  <article className="content">
-                    <FontAwesomeIcon
-                      icon={faBriefcase}
-                      className="custom-icon"
-                    ></FontAwesomeIcon>
-                    <h2 className="title">
-                      About Us <br />
-                      Tandem Uehling
-                    </h2>
-                    <div className="buttom-sea">Read more about us</div>
-                    <p>
-                      At Tandem Uehling, prosperity and income is what we
-                      endeavour to accomplish. With care and researched
-                      financial strategies, you will feel secure working with
-                      us.{" "}
-                    </p>
-                  </article>
+                  <Slide left fraction={0.3}>
+                    <article className="content">
+                      <FontAwesomeIcon
+                        icon={faBriefcase}
+                        className="custom-icon"
+                      ></FontAwesomeIcon>
+                      <h2 className="title">
+                        About Us <br />
+                        Tandem Uehling
+                      </h2>
+                      <div className="buttom-sea">Read more about us</div>
+                      <p>
+                        At Tandem Uehling, prosperity and income is what we
+                        endeavour to accomplish. With care and researched
+                        financial strategies, you will feel secure working with
+                        us.{" "}
+                      </p>
+                    </article>
+                  </Slide>
                 </div>
               </div>
             </Col>
@@ -205,80 +209,87 @@ class Homepage extends Component {
             <Col md={24} lg={16}>
               <Row type="flex">
                 <Col md={12}>
-                  <div className="contain-invester">
-                    <article>
-                      <FontAwesomeIcon
-                        icon={faUmbrella}
-                        className="custom-icon"
-                      ></FontAwesomeIcon>
-                      <br />
-                      <span>BE AN ACCREDITED INVESTOR IN USA</span>
-                      <h2 className="">
-                        How do I know if I am an Accredited Investor as defined
-                        by the SEC in the USA?
-                      </h2>
-                      <p>
-                        An accredited investor is a person or entity that can
-                        deal with securities not registered with financial
-                        authorities by satisfying one of the requirements
-                        regarding income, net worth, asset size, governance
-                        status or professional experience.
-                      </p>
-                      <p>
-                        <strong>
-                          If you would like to verify if you qualify as an
-                          accredited investor, then call us NOW on{" "}
-                          <a href="tel:1300 854 431" data-wpel-link="internal">
-                            1300 854 431
-                          </a>
-                        </strong>
-                      </p>
-                    </article>
-                  </div>
+                  <Slide left fraction={0.3}>
+                    <div className="contain-invester">
+                      <article>
+                        <FontAwesomeIcon
+                          icon={faUmbrella}
+                          className="custom-icon"
+                        ></FontAwesomeIcon>
+                        <br />
+                        <span>BE AN ACCREDITED INVESTOR IN USA</span>
+                        <h2 className="">
+                          How do I know if I am an Accredited Investor as
+                          defined by the SEC in the USA?
+                        </h2>
+                        <p>
+                          An accredited investor is a person or entity that can
+                          deal with securities not registered with financial
+                          authorities by satisfying one of the requirements
+                          regarding income, net worth, asset size, governance
+                          status or professional experience.
+                        </p>
+                        <p>
+                          <strong>
+                            If you would like to verify if you qualify as an
+                            accredited investor, then call us NOW on{" "}
+                            <a
+                              href="tel:1300 854 431"
+                              data-wpel-link="internal"
+                            >
+                              1300 854 431
+                            </a>
+                          </strong>
+                        </p>
+                      </article>
+                    </div>
+                  </Slide>
                 </Col>
                 <Col md={12}>
                   <div className="list-icon">
-                    <article>
-                      <div className="counter">
-                        <FontAwesomeIcon
-                          icon={faUserFriends}
-                          className="icon"
-                        ></FontAwesomeIcon>
-                        <div className="counter-body">
-                          <span className="counter-number" data-number="825">
-                            825
-                          </span>
-                          <span>+</span>
+                    <Slide right>
+                      <article>
+                        <div className="counter">
+                          <FontAwesomeIcon
+                            icon={faUserFriends}
+                            className="icon"
+                          ></FontAwesomeIcon>
+                          <div className="counter-body">
+                            <span className="counter-number" data-number="825">
+                              825
+                            </span>
+                            <span>+</span>
+                          </div>
+                          <h3>Members</h3>
                         </div>
-                        <h3>Members</h3>
-                      </div>
-                      <div className="counter">
-                        <FontAwesomeIcon
-                          icon={faHome}
-                          className="icon"
-                        ></FontAwesomeIcon>
-                        <div className="counter-body">
-                          <span className="counter-number" data-number="825">
-                            3250
-                          </span>
-                          <span>+</span>
+                        <div className="counter">
+                          <FontAwesomeIcon
+                            icon={faHome}
+                            className="icon"
+                          ></FontAwesomeIcon>
+                          <div className="counter-body">
+                            <span className="counter-number" data-number="825">
+                              3250
+                            </span>
+                            <span>+</span>
+                          </div>
+                          <h3>Purchased Properties</h3>
                         </div>
-                        <h3>Purchased Properties</h3>
-                      </div>
-                      <div className="counter">
-                        <FontAwesomeIcon
-                          icon={faMoneyCheck}
-                          className="icon"
-                        ></FontAwesomeIcon>
-                        <div className="counter-body">
-                          <span className="counter-number" data-number="825">
-                            1534
-                          </span>
-                          <span>+</span>
+                        <div className="counter">
+                          <FontAwesomeIcon
+                            icon={faMoneyCheck}
+                            className="icon"
+                          ></FontAwesomeIcon>
+                          <div className="counter-body">
+                            <span className="counter-number" data-number="825">
+                              1534
+                            </span>
+                            <span>+</span>
+                          </div>
+                          <h3>Settled Sales</h3>
                         </div>
-                        <h3>Settled Sales</h3>
-                      </div>
-                    </article>
+                      </article>
+                    </Slide>
                   </div>
                 </Col>
               </Row>
@@ -517,7 +528,9 @@ class Homepage extends Component {
                   services in the fund or bespoke portfolio.{" "}
                 </p>
                 <div>
-                  <strong className="color-white">For more information, call us today on:</strong>
+                  <strong className="color-white">
+                    For more information, call us today on:
+                  </strong>
                   <h2 className="phone-number">1300 ­854 431</h2>
                 </div>
               </article>
