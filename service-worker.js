@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hieuth1997/tandemling-react/precache-manifest.e5451f9a3b1e090097dcee8fa12b48f9.js"
+  "/hieuth1997/tandemling-react/precache-manifest.9c1714f7a3d1c6212481a21575946c7e.js"
 );
 
 self.addEventListener('message', (event) => {

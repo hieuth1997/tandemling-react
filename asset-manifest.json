@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/hieuth1997/tandemling-react/static/css/main.52970e80.chunk.css",
-    "main.js": "/hieuth1997/tandemling-react/static/js/main.e5151097.chunk.js",
-    "main.js.map": "/hieuth1997/tandemling-react/static/js/main.e5151097.chunk.js.map",
+    "main.js": "/hieuth1997/tandemling-react/static/js/main.6e90b555.chunk.js",
+    "main.js.map": "/hieuth1997/tandemling-react/static/js/main.6e90b555.chunk.js.map",
     "runtime-main.js": "/hieuth1997/tandemling-react/static/js/runtime-main.ca7bb9cf.js",
     "runtime-main.js.map": "/hieuth1997/tandemling-react/static/js/runtime-main.ca7bb9cf.js.map",
-    "static/css/2.519f6f6a.chunk.css": "/hieuth1997/tandemling-react/static/css/2.519f6f6a.chunk.css",
-    "static/js/2.3996f8e9.chunk.js": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js",
-    "static/js/2.3996f8e9.chunk.js.map": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js.map",
+    "static/css/2.2b947c49.chunk.css": "/hieuth1997/tandemling-react/static/css/2.2b947c49.chunk.css",
+    "static/js/2.b0acd874.chunk.js": "/hieuth1997/tandemling-react/static/js/2.b0acd874.chunk.js",
+    "static/js/2.b0acd874.chunk.js.map": "/hieuth1997/tandemling-react/static/js/2.b0acd874.chunk.js.map",
     "index.html": "/hieuth1997/tandemling-react/index.html",
-    "precache-manifest.e5451f9a3b1e090097dcee8fa12b48f9.js": "/hieuth1997/tandemling-react/precache-manifest.e5451f9a3b1e090097dcee8fa12b48f9.js",
+    "precache-manifest.9c1714f7a3d1c6212481a21575946c7e.js": "/hieuth1997/tandemling-react/precache-manifest.9c1714f7a3d1c6212481a21575946c7e.js",
     "service-worker.js": "/hieuth1997/tandemling-react/service-worker.js",
-    "static/css/2.519f6f6a.chunk.css.map": "/hieuth1997/tandemling-react/static/css/2.519f6f6a.chunk.css.map",
+    "static/css/2.2b947c49.chunk.css.map": "/hieuth1997/tandemling-react/static/css/2.2b947c49.chunk.css.map",
     "static/css/main.52970e80.chunk.css.map": "/hieuth1997/tandemling-react/static/css/main.52970e80.chunk.css.map",
-    "static/js/2.3996f8e9.chunk.js.LICENSE": "/hieuth1997/tandemling-react/static/js/2.3996f8e9.chunk.js.LICENSE",
+    "static/js/2.b0acd874.chunk.js.LICENSE": "/hieuth1997/tandemling-react/static/js/2.b0acd874.chunk.js.LICENSE",
     "static/media/style.scss": "/hieuth1997/tandemling-react/static/media/slider-03.55946141.jpg",
     "static/media/book.png": "/hieuth1997/tandemling-react/static/media/book.81b0f2bc.png",
     "static/media/external.svg": "/hieuth1997/tandemling-react/static/media/external.03979156.svg",
@@ -25,9 +25,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.ca7bb9cf.js",
-    "static/css/2.519f6f6a.chunk.css",
-    "static/js/2.3996f8e9.chunk.js",
+    "static/css/2.2b947c49.chunk.css",
+    "static/js/2.b0acd874.chunk.js",
     "static/css/main.52970e80.chunk.css",
-    "static/js/main.e5151097.chunk.js"
+    "static/js/main.6e90b555.chunk.js"
   ]
 }
